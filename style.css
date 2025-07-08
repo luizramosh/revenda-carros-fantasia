@@ -1,0 +1,15 @@
+* {
+    background-color:rgba(255, 255, 255, 0.877)  
+  
+}
+
+
+h1 {
+    border-bottom-style: inset;
+}
+
+img.normal {
+float: left; height: 300px; width: 300px;
+padding-right: 20px;
+}
+

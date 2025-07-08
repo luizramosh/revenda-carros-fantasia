@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 8.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="midias/desconto-10-por-cento.png" alt="Imagem do desconto de 10%" class="normal">
+
+    <h1>Revenda de Carros Fantasia</h1>
+
+    <form>
+        <p>Modelo do Veículo:
+        <input type="text" name="" id="inModelo" required autofocus>
+        </p>
+        <p>Ano de Fabricação:
+        <input type="number" name="inAno" id="inAno" required>
+        </p>
+        <p>Preço:
+        <input type="number" min="0" step="0.01" name="inPreco" id="inPreco" required>
+        </p>
+        <input type="submit" value="Classificar - Calcular Entrada e Parcelas">
+        </form>
+        <div>
+            <h3 id="outResp1"></h3>
+            <h3 id="outResp2"></h3>
+            <h3 id="outResp3"></h3>
+        </div>
+
+
+
+
+
+
+
+
+    <script src="carros.js"></script>
+</body>
+</html>
